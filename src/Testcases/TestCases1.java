@@ -26,7 +26,7 @@ public class TestCases1 extends BasicTestCases {
 
 	@DataProvider
 	public Object[][] getData() {
-		Object[][] dataset = new Object[3][2];
+		Object[][] dataset = new Object[4][2];
 
 		dataset[0][0] = "firstusername";
 		dataset[0][1] = "firstusername";
@@ -36,6 +36,9 @@ public class TestCases1 extends BasicTestCases {
 
 		dataset[2][0] = "thirdusername";
 		dataset[2][1] = "thirdusername";
+
+		dataset[3][0] = "thirdusername";
+		dataset[3][1] = "thirdusername";
 
 		return dataset;
 

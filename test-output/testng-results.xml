@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="10" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-07T20:05:38 NZST" name="Suite" finished-at="2025-08-07T20:05:38 NZST" duration-ms="61">
+    <groups>
+      <group name="FirstGroup">
+        <method signature="BasicTestCases.RunTestCase1()[pri:0, instance:Testcases.BasicTestCases@2a65fe7c]" name="RunTestCase1" class="Testcases.BasicTestCases"/>
+        <method signature="BasicTestCases.RunTestCase3()[pri:0, instance:Testcases.BasicTestCases@2a65fe7c]" name="RunTestCase3" class="Testcases.BasicTestCases"/>
+        <method signature="BasicTestCases.RunTestNg(java.lang.String,java.lang.String)[pri:0, instance:Testcases.BasicTestCases@2a65fe7c]" name="RunTestNg" class="Testcases.BasicTestCases"/>
+      </group> <!-- FirstGroup -->
+    </groups>
+    <test started-at="2025-08-07T20:05:38 NZST" name="Performance" finished-at="2025-08-07T20:05:38 NZST" duration-ms="51">
+      <class name="Testcases.TestCases1">
+        <test-method signature="FourthTestCase1(java.lang.String,java.lang.String)[pri:0, instance:Testcases.TestCases1@3bf7ca37]" started-at="2025-08-07T20:05:38 NZST" name="FourthTestCase1" data-provider="getData" finished-at="2025-08-07T20:05:38 NZST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FourthTestCase1 -->
+        <test-method signature="FourthTestCase1(java.lang.String,java.lang.String)[pri:0, instance:Testcases.TestCases1@3bf7ca37]" started-at="2025-08-07T20:05:38 NZST" name="FourthTestCase1" data-provider="getData" finished-at="2025-08-07T20:05:38 NZST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FourthTestCase1 -->
+        <test-method signature="FourthTestCase1(java.lang.String,java.lang.String)[pri:0, instance:Testcases.TestCases1@3bf7ca37]" started-at="2025-08-07T20:05:38 NZST" name="FourthTestCase1" data-provider="getData" finished-at="2025-08-07T20:05:38 NZST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FourthTestCase1 -->
+        <test-method signature="SecondTestCase()[pri:0, instance:Testcases.TestCases1@3bf7ca37]" started-at="2025-08-07T20:05:38 NZST" name="SecondTestCase" finished-at="2025-08-07T20:05:38 NZST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTestCase -->
+      </class> <!-- Testcases.TestCases1 -->
+    </test> <!-- Performance -->
+    <test started-at="2025-08-07T20:05:38 NZST" name="Regression" finished-at="2025-08-07T20:05:38 NZST" duration-ms="61">
+      <class name="Testcases.BasicTestCases">
+        <test-method signature="RunTestCase1()[pri:0, instance:Testcases.BasicTestCases@2a65fe7c]" started-at="2025-08-07T20:05:38 NZST" name="RunTestCase1" finished-at="2025-08-07T20:05:38 NZST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunTestCase1 -->
+        <test-method signature="RunTestCase3()[pri:0, instance:Testcases.BasicTestCases@2a65fe7c]" started-at="2025-08-07T20:05:38 NZST" name="RunTestCase3" finished-at="2025-08-07T20:05:38 NZST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunTestCase3 -->
+        <test-method signature="RunTestNg(java.lang.String,java.lang.String)[pri:0, instance:Testcases.BasicTestCases@2a65fe7c]" started-at="2025-08-07T20:05:38 NZST" name="RunTestNg" finished-at="2025-08-07T20:05:38 NZST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[google/map.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunTestNg -->
+      </class> <!-- Testcases.BasicTestCases -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
